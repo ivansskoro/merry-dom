@@ -16,7 +16,7 @@ ul {
 h1 {
   font-size: 80px;
   font-weight: 300;
-  margin-bottom: 40px;
+  margin-bottom: 0.25em;
   line-height: 1.1;
   font-family: 'Montserrat', sans-serif;
 }
@@ -38,7 +38,6 @@ h3 {
 }
 
 img {
-  border-radius: 3px;
   max-width: 48%;
   margin-right: 1%;
 }
@@ -63,13 +62,11 @@ img:first-child{
   grid-column-end: 10;
 }
 
-
-.opis {
-  font-size: 1.75em;
-  line-height: 1.4;
-  margin-top: 0;
-  font-weight: normal;
+.vrh {
+  margin-bottom: 3em;
 }
+
+
 
 .usluge {
   margin-top: 40px;
@@ -77,8 +74,6 @@ img:first-child{
   display: flex;
   flex-wrap: wrap;
 }
-
-
 
 .pojedinacnausluga {
   display: inline-block;
@@ -91,7 +86,10 @@ img:first-child{
   box-shadow: 0px 4px 24px 0px rgba(0,0,0,0.10);
 }
 
-
+.kapacitet {
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
 
 .slike {
   display: flex;
@@ -107,7 +105,7 @@ img:first-child{
   grid-row-start: 4;
   margin-top: 50%;
   background-color: #FFEEE4;
-  padding: 1.5em;
+  padding: 2em 2em 0em 2em;
   grid-column-end: 9;
 }
 
@@ -128,10 +126,13 @@ img:first-child{
   line-height: 1.6;
 }
 
-.smallcaps {
-  font-weight: 600;
+.opis {
+  font-size: 1.75em;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: normal;
 }
-
 
 .center{
   text-align: center;
