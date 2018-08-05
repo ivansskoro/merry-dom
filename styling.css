@@ -5,6 +5,7 @@ body {
   line-height: 1.5;
   background-color: #FFEEE4;
   padding-bottom: 4em;
+  margin: 0;
 }
 
 ul {
@@ -16,7 +17,7 @@ ul {
 
 h1 {
   font-size: 80px;
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: 0.25em;
   line-height: 1.1;
   font-family: 'Montserrat', sans-serif;
@@ -106,14 +107,14 @@ img:first-child{
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
-  grid-row-start: 5;
+  grid-row-start: 6;
   grid-column-start: 1;
   grid-column-end: 11;
 }
 
 .odomu {
-  grid-row-start: 4;
-  margin-top: 50%;
+  grid-row-start: 5;
+  margin-top: -4em;
   background-color: #FFEEE4;
   padding: 2em 2em 0em 2em;
   grid-column-end: 9;
@@ -123,7 +124,7 @@ img:first-child{
 .kontaktcontainer {
   display: flex;
   flex-direction: column;
-  grid-row-start: 6;
+  grid-row-start: 7;
   align-items: flex-end;
 }
 
@@ -131,7 +132,6 @@ img:first-child{
   margin-top: -6em;
   padding: 1em 1.5em 0.25em 1.5em;
   background-color: black;
-
   background-color: #FFEEE4;
   border: 2px solid black;
   box-shadow: 0px 0px 0px 14px rgba(255,238,228,1)
@@ -156,4 +156,119 @@ img:first-child{
 
 .righttext{
   text-align: right;
+}
+
+
+@media screen and (max-width : 1000px) {
+
+  body {
+    margin: 2em;
+  }
+
+  .opis {
+    font-size: 1.5em;
+  }
+
+  .pojedinacnausluga {
+    font-size: 18px;
+    margin-right: 14px;
+    margin-bottom: 16px;
+    padding: 14px 20px;
+  }
+
+  .sekcija {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    grid-column-start: 1;
+    grid-column-end: 11;
+  }
+}
+
+@media screen and (max-width : 800px) {
+
+  h1 {
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 0.25em;
+    line-height: 1.1;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .sekcija {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    grid-column-start: 1;
+    grid-column-end: 11;
+  }
+
+  img {
+    max-width: 100%;
+    margin-right: 0%;
+    margin-top: 1em;
+    margin-bottom: 0;
+  }
+
+  .odomu {
+   padding: 0;
+  }
+
+  img:first-child{
+
+    margin-top: 1em;
+    margin-bottom: 0;
+      margin-left: 0%;
+  }
+
+
+}
+
+@media screen and (max-width : 600px) {
+
+  body {
+    margin: 20px;
+  }
+
+  font-size: 1em;
+
+  .pojedinacnausluga {
+    font-size: 16px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    padding: 14px 20px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2{
+
+    font-size: 1.1em;
+  }
+
+  .odomu {
+   padding: 0;
+  }
+
+  .opis {
+    font-size: 1.2em;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width : 400px) {
+
+  font-size: 0.9em;
+  
+    h1 {
+      font-size: 40px;
+    }
+
+    .opis {
+      font-size: 1.2em;
+    }
+
 }
