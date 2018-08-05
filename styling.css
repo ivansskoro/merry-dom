@@ -161,6 +161,11 @@ img:first-child{
 
 @media screen and (max-width : 1000px) {
 
+
+    .usluge {
+      margin-top: 20px;
+    }
+
   body {
     margin: 2em;
   }
@@ -175,31 +180,28 @@ img:first-child{
     margin-bottom: 16px;
     padding: 14px 20px;
   }
-
-  .sekcija {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    grid-column-start: 1;
-    grid-column-end: 11;
-  }
 }
 
 @media screen and (max-width : 800px) {
 
-  h1 {
-    font-size: 70px;
-    font-weight: 500;
-    margin-bottom: 0.25em;
-    line-height: 1.1;
-    font-family: 'Montserrat', sans-serif;
+
+  .usluge {
+    margin-top: 0px;
   }
 
   .sekcija {
-    margin-top: 30px;
-    margin-bottom: 30px;
     grid-column-start: 1;
     grid-column-end: 11;
   }
+
+  .vrh {
+    margin-bottom: 2em;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
 
   img {
     max-width: 100%;
@@ -210,13 +212,14 @@ img:first-child{
 
   .odomu {
    padding: 0;
+   margin-top: 1.5em;
+   margin-bottom: 1em;
   }
 
   img:first-child{
-
     margin-top: 1em;
     margin-bottom: 0;
-      margin-left: 0%;
+    margin-left: 0%;
   }
 
 
@@ -228,6 +231,9 @@ img:first-child{
     margin: 20px;
   }
 
+  .vrh {
+    margin-bottom: 0.5em;
+  }
   font-size: 1em;
 
   .pojedinacnausluga {
@@ -246,10 +252,6 @@ img:first-child{
     font-size: 1.1em;
   }
 
-  .odomu {
-   padding: 0;
-  }
-
   .opis {
     font-size: 1.2em;
   }
@@ -262,7 +264,7 @@ img:first-child{
 @media screen and (max-width : 400px) {
 
   font-size: 0.9em;
-  
+
     h1 {
       font-size: 40px;
     }
