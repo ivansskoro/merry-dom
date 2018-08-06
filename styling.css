@@ -229,12 +229,13 @@ img:first-child{
 
   body {
     margin: 20px;
+
+    font-size: 1em;
   }
 
   .vrh {
     margin-bottom: 0.5em;
   }
-  font-size: 1em;
 
   .pojedinacnausluga {
     font-size: 16px;
@@ -263,8 +264,6 @@ img:first-child{
 
 @media screen and (max-width : 400px) {
 
-  font-size: 0.9em;
-
     h1 {
       font-size: 40px;
     }
@@ -272,5 +271,4 @@ img:first-child{
     .opis {
       font-size: 1.2em;
     }
-
 }
