@@ -36,12 +36,7 @@ h2{
   line-height: 1.4;
 }
 
-h3 {
-  font-weight: normal;
-  font-size: 1.25em;
-  line-height: 1.5;
-  margin-top: 0;
-}
+
 
 img {
   max-width: 48%;
@@ -181,11 +176,13 @@ img:first-child{
     }
 
   body {
-    margin: 2em;
+    margin: 20px;
   }
 
-  .opis {
-    font-size: 1.5em;
+
+
+  h2{
+    font-size: 30px;
   }
 
   .pojedinacnausluga {
@@ -236,15 +233,24 @@ img:first-child{
     margin-left: 0%;
   }
 
+  .buttonbonitet {
+      text-decoration: none;
+      color: initial;
+      padding: 12px 20px;
+      background-color: rgba(0,0,0,0.85);
+      border-radius: 100px;
+      border: none;
+      color: white;
+  }
+
 
 }
 
 @media screen and (max-width : 600px) {
 
   body {
-    margin: 20px;
-
-    font-size: 1em;
+    margin: 15px;
+    font-size: 16px;
   }
 
   .vrh {
@@ -262,25 +268,16 @@ img:first-child{
     font-size: 50px;
   }
 
-  h2{
-    font-size: 1.1em;
-  }
 
-  .opis {
-    font-size: 1.75em;
+  h2 {
+    font-size: 22px;
     line-height: 1.4;
     margin-top: 0;
     margin-bottom: 20px;
     font-weight: normal;
   }
 
-  .opis {
-    font-size: 1.2em;
-  }
 
-  h3 {
-    font-size: 1em;
-  }
 }
 
 @media screen and (max-width : 400px) {
@@ -289,7 +286,4 @@ img:first-child{
       font-size: 40px;
     }
 
-    .opis {
-      font-size: 1.2em;
-    }
 }
